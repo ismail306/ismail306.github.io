@@ -44,17 +44,18 @@ margin-bottom:30px;
 }
 
  #home{
-
   display:block;
   background-color:rgba(10,10,10,0.7);
    margin-top:0;
+   padding-bottom: 6%;
+    padding-top: 12%;
  }
 
 
 
  #photo-profil{
-   width:312px!important;
-   height:416px!important;
+   width:300px!important;
+   height:300px!important;
    margin-left:10%;
    border-radius:50%;
    margin-top:50px;
@@ -304,6 +305,28 @@ padding-bottom: 15px;
       overflow-y: auto;
     }
 
+    #home{
+      display:block;
+      background-color:rgba(10,10,10,0.7);
+       margin-top:0;
+       padding-bottom: 3%;
+        padding-top: 8%;
+     }
+   t
+    #photo-profil{
+      width:200px!important;
+      height:200px!important;
+      border-radius:50%;
+      margin-top:50px;
+      margin-bottom:50px;
+    }
+    #nom{
+      font-size:50px!important;
+      font-family:"Lobster"!important;
+      color:#ffffff;
+      text-align:center;
+      margin-top:5%;
+  }
 
   }
 
