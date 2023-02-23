@@ -116,6 +116,7 @@ margin-bottom:30px;
     font-size: 15px;
     margin-left: auto;
     padding-right: 20px;
+    padding-top: 15px;
 
 
   }
@@ -288,6 +289,7 @@ padding-bottom: 15px;
       width: 30%;
       background-color: #333;
       height: 0px;
+      padding-top: 0px;
       transition: all 0.3s ease-in;
       overflow-y: hidden;
       top: 54px;
