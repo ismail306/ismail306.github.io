@@ -32,7 +32,9 @@
 .heading-title{
   padding-bottom: 50px;
 }
-
+.row {
+  --bs-gutter-x: 0 !important;
+}
 
 h2{
   font-size:40px;
