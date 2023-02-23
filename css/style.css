@@ -58,7 +58,7 @@ margin-bottom:30px;
  #photo-profil{
    width:300px!important;
    height:300px!important;
-   margin-left:10%;
+   margin-left:29%;
    border-radius:50%;
    margin-top:50px;
    margin-bottom:50px;
@@ -314,12 +314,13 @@ padding-bottom: 15px;
        padding-bottom: 3%;
         padding-top: 8%;
      }
-   t
     #photo-profil{
       width:200px!important;
       height:200px!important;
+
       border-radius:50%;
       margin-top:50px;
+      text-align: center !important;
       margin-bottom:50px;
     }
     #nom{
