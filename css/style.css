@@ -293,7 +293,7 @@ padding-bottom: 15px;
       transition: all 0.3s ease-in;
       overflow-y: hidden;
       top: 54px;
-      left: 330px;
+      left: 70%;
     }
 
     .nav > #nav-check:not(:checked) ~ .nav-links {
