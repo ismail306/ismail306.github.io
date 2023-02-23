@@ -1,0 +1,307 @@
+*{
+    margin:0;
+    padding:0;
+  }
+
+
+  body{
+    background:url("/images/background.jpg");
+    width:1920px;
+    height:1080px;
+    background-color:#071421;
+    background-repeat:no-repeat;
+    background-position:center top;
+    background-attachment:fixed;
+    width:100%!important;
+  }
+
+  section{
+    position: relative;
+
+}
+
+.section-padding{
+
+    padding: 200px 0px;
+}
+.container{
+  width:100%;
+
+}
+
+.heading-title{
+  padding-bottom: 50px;
+}
+
+
+h2{
+  font-size:40px;
+  font-family:"Abril Fatface";
+  color:#ffffff;
+  text-align:center;
+margin-top:50px;
+margin-bottom:30px;
+}
+
+ #home{
+
+  display:block;
+  background-color:rgba(10,10,10,0.7);
+   margin-top:0;
+ }
+
+
+
+ #photo-profil{
+   width:312px!important;
+   height:416px!important;
+   margin-left:10%;
+   border-radius:50%;
+   margin-top:50px;
+   margin-bottom:50px;
+ }
+
+
+#nom{
+    font-size:50px!important;
+    font-family:"Lobster"!important;
+    color:#ffffff;
+    text-align:center;
+    margin-top:25%;
+}
+#metier{
+    font-size:20px;
+    font-family:"Lobster";
+    color:#ffffff;
+    text-align:center;
+    margin-top:30px;
+}
+  .nav {
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    z-index: 9999;
+    background-color: #071421;
+
+  }
+
+
+  .nav-title {
+    display: inline-block;
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px 10px 10px 10px;
+  }
+  .nav-header>a{
+   text-decoration: none !important;
+  }
+  .nav-header>a:hover{
+    color: #efefef;
+   }
+
+
+
+  .nav-btn:hover{
+    background-color: #ffffff !important;
+    color: #071421 !important;
+
+  }
+
+  .nav-links {
+    display: inline;
+    text-transform: uppercase;
+    float: right !important;
+    font-size: 15px;
+    margin-left: auto;
+    padding-right: 20px;
+
+
+  }
+
+  .nav > .nav-links > a {
+    display: inline-block;
+    padding: 13px 10px 13px 10px;
+    text-decoration: none;
+    color: #efefef;
+  }
+
+
+  #about{
+    padding-top:50px;
+    padding-bottom:100px;
+     background-color:#071421;
+    }
+
+    #aprop{
+      font-size: 18px;
+      text-align:center;
+      color:#fff;
+    }
+
+
+  #resume{
+    padding-top:50px;
+    padding-bottom:10px;
+    background-color:#071421;
+  }
+  #resume p{
+    color:#ffffff;
+    font-size: 22px;
+    margin-bottom: 25px;
+  }
+
+
+  .resume-btn{
+    border: 2px solid #fff !important;
+    color: #ffffff !important;
+  }
+  .resume-btn:hover{
+    background-color: #ffffff !important;
+    color: #071421 !important;
+
+  }
+  .eduexp{
+
+    color: #ffffff;
+   }
+  #portfolio{
+    padding-top:50px;
+    padding-bottom:100px;
+  }
+  .card-image{
+    padding-right: 2px !important;
+    padding-left: 2px !important;
+
+  }
+  .image-container {
+    position: relative;
+    display: inline-block;
+  }
+
+  .image-container img {
+    display: block;
+  height: 300px;
+    transition: filter 0.3s ease-out;
+  }
+
+  .overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .overlay h3,
+  .overlay p {
+    color: #fff;
+    border-radius: 5px;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
+    display: block;
+
+  }
+
+  .image-container:hover img {
+    filter: blur(5px);
+  }
+
+  .image-container:hover .overlay {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  label{
+    color:#ffffff;
+   }
+
+  #contact{
+    padding-top:50px;
+    background-color:#071421;
+  }
+  #contact p{
+    color:#ffffff;
+    font-size: 15px;
+    text-align:left;
+
+  }
+  .contact-btn{
+    border: 2px solid #fff !important;
+    color: #ffffff !important;
+  }
+  .contact-btn:hover{
+    background-color: #ffffff !important;
+    color: #071421 !important;
+}
+
+.footer{
+  background-color:#071421;
+  text-align:center;
+  color:#ffffff;
+
+  font-size: 18px;
+}
+.footericon{
+padding-bottom: 15px;
+}
+
+
+.footericon>a{
+  color: #ffffff !important;
+  padding-right: 20px;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+
+
+
+  @media (max-width:600px) {
+    .nav > .nav-btn {
+      display: inline-block;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+    }
+
+    .nav > .nav-btn > label {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      padding: 20px;
+    }
+
+    .nav > .nav-btn > label > span {
+      display: block;
+      width: 30px;
+      height: 10px;
+      border-top: 2px solid #eee;
+    }
+    .nav > .nav-links {
+      position: absolute;
+      display: block;
+      width: 30%;
+      background-color: #333;
+      height: 0px;
+      transition: all 0.3s ease-in;
+      overflow-y: hidden;
+      top: 54px;
+      left: 330px;
+    }
+
+    .nav > #nav-check:not(:checked) ~ .nav-links {
+      height: 0px;
+    }
+    .nav > #nav-check:checked ~ .nav-links {
+      height: calc(100vh - 50px);
+      overflow-y: auto;
+    }
+
+
+  }
+
