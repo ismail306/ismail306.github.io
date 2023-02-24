@@ -8,7 +8,7 @@
     background:url("/images/background.jpg");
 
     background-color:#071421;
-    background-repeat:no-repeat;
+    background-repeat:repeat;
     background-position:center top;
     background-attachment:fixed;
     width:100%!important;
