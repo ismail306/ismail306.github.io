@@ -1,14 +1,9 @@
-*{
-    margin:0;
-    padding:0;
-  }
-
 
   body{
     background:url("/images/background.jpg");
 
     background-color:#071421;
-    background-repeat:no-repeat;
+    background-repeat:repeat;
     background-position:center top;
     background-attachment:fixed;
     width:100%!important;
@@ -30,7 +25,7 @@
 }
 
 .heading-title{
-  padding-bottom: 50px;
+  padding-bottom: 20px;
 }
 .row {
   --bs-gutter-x: 0 !important;
@@ -38,7 +33,6 @@
 
 h2{
   font-size:40px;
-  font-family:"Abril Fatface";
   color:#ffffff;
   text-align:center;
 margin-top:50px;
@@ -48,36 +42,27 @@ margin-bottom:30px;
  #home{
   display:block;
   background-color:rgba(10,10,10,0.7);
-   margin-top:0;
-   padding-bottom: 6%;
-    padding-top: 12%;
+
  }
 
 
 
- #photo-profil{
+ #photo-profile{
    width:300px!important;
    height:300px!important;
-   margin-left:29%;
    border-radius:50%;
-   margin-top:50px;
-   margin-bottom:50px;
+
  }
 
-
 #nom{
-    font-size:50px!important;
-    font-family:"Lobster"!important;
+    font-size:70px!important;
     color:#ffffff;
-    text-align:center;
-    margin-top:25%;
+    margin-top:15%;
 }
 #metier{
-    font-size:20px;
-    font-family:"Lobster";
+    font-size:30px;
     color:#ffffff;
-    text-align:center;
-    margin-top:30px;
+    margin-top:20px;
 }
   .nav {
     height: 80px;
@@ -120,8 +105,6 @@ margin-bottom:30px;
     margin-left: auto;
     padding-right: 20px;
     padding-top: 15px;
-
-
   }
 
   .nav > .nav-links > a {
@@ -143,7 +126,9 @@ margin-bottom:30px;
       text-align:center;
       color:#fff;
     }
-
+#skill{
+  background-color:rgba(10,10,10,0.7);
+}
 
   #resume{
     padding-top:50px;
@@ -173,6 +158,7 @@ margin-bottom:30px;
   #portfolio{
     padding-top:50px;
     padding-bottom:100px;
+    background-color:rgba(10,10,10,0.7);
   }
   .card-image{
     padding-right: 2px !important;
@@ -316,19 +302,13 @@ padding-bottom: 15px;
        padding-bottom: 3%;
         padding-top: 8%;
      }
-    #photo-profil{
+    #photo-profile{
       width:200px!important;
       height:200px!important;
-      padding-right: 6%;
-      padding-bottom: 2%;
-      padding-top: 3%;
       border-radius:50%;
-      margin-top:70px;
-      margin-bottom:50px;
     }
     #nom{
       font-size:50px!important;
-      font-family:"Lobster"!important;
       color:#ffffff;
       text-align:center;
       margin-top:5%;
